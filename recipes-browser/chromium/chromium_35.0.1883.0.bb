@@ -10,6 +10,9 @@ SRC_URI = "\
         file://google-chrome \
         file://google-chrome.desktop \
 "
+
+MIRRORS += "http://gsdview.appspot.com/chromium-browser-official/ http://commondatastorage.googleapis.com/chromium-browser-official/"
+
 SRC_URI[md5sum] = "c0659bc3c6b540e106e043fd27f54358"
 SRC_URI[sha256sum] = "666d5948c6508072f9f5d6acff82290fa5939e1da1b94b042a1e05daf3357b61"
 
